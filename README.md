@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/chinjs/chin-plugin-gulp.svg?longCache=true&style=flat-square)](https://travis-ci.org/chinjs/chin-plugin-gulp)
 [![Coverage Status](https://img.shields.io/codecov/c/github/chinjs/chin-plugin-gulp.svg?longCache=true&style=flat-square)](https://codecov.io/github/chinjs/chin-plugin-gulp)
 
-[chin](https://github.com/chinjs/chin) plugin using [gulp plugins](https://gulpjs.com/plugins).
+[chin](https://github.com/chinjs/chin) plugin for using [gulp plugins](https://gulpjs.com/plugins).
 
 ## Installation
 ```shell
@@ -13,9 +13,7 @@ yarn add -D chin chin-plugin-gulp
 ```
 
 ## Usage
-### gulp(plugins)
-
-`plugins: () => stream[]`
+### gulp(plugins: () => stream[])
 
 ```js
 import gulp from 'chin-plugin-gulp'

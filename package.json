@@ -5,7 +5,7 @@
   "repository": "chinjs/chin-plugin-gulp",
   "author": "kthjm <toxictoxer@gmail.com>",
   "license": "MIT",
-  "description": "Chin plugin using gulp plugins.",
+  "description": "Chin plugin for using gulp plugins.",
   "keywords": [
     "chin",
     "chin-plugin",
