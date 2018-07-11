@@ -1,0 +1,56 @@
+{
+  "name": "chin-plugin-gulp",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "chinjs/chin-plugin-gulp",
+  "author": "kthjm <toxictoxer@gmail.com>",
+  "license": "MIT",
+  "description": "Chin plugin using gulp plugins.",
+  "keywords": [
+    "chin",
+    "chin-plugin",
+    "gulp",
+    "concat"
+  ],
+  "nyc": {
+    "require": [
+      "babel-register"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
+  "scripts": {
+    "ex": "chin -c .example",
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=lcov && codecov"
+  },
+  "peerDependencies": {
+    "chin": "^3.0.7"
+  },
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "through2": "^2.0.3",
+    "vinyl": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-power-assert": "^2.0.0",
+    "chin": "^3.0.7",
+    "chin-plugin-compose": "^0.0.3",
+    "chin-plugin-convert-svg": "^0.0.3",
+    "codecov": "^3.0.4",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-less": "^3.5.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.1",
+    "gulp-stylus": "^2.7.0",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "power-assert": "^1.6.0",
+    "rewire": "^4.0.1",
+    "sinon": "^6.1.3"
+  }
+}
